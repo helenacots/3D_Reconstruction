@@ -1,0 +1,19 @@
+# Package Information for pkg-config
+# Author= Engin Tola
+# Created= dimarts, 12 de febrer de 2019, 13:45:42 CET
+# Licence= see license.txt
+
+prefix=/Users/helena/Documents/TFG/daisy-1.8.1/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: daisy
+Description: daisy descriptor
+Version: 1.8.1
+Libs: -L${libdir} -ldaisy
+Cflags: -I${includedir}
+Requires:
+Path=/Users/helena/Documents/TFG/daisy-1.8.1
+tagfile=${Path}/TAGS
+
